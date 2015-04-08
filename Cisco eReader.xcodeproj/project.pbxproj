@@ -1,0 +1,475 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		05C4E9411AD5019900F561D1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05C4E9401AD5019900F561D1 /* AppDelegate.swift */; };
+		05C4E9441AD5019900F561D1 /* Cisco_eReader.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 05C4E9421AD5019900F561D1 /* Cisco_eReader.xcdatamodeld */; };
+		05C4E9461AD5019900F561D1 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05C4E9451AD5019900F561D1 /* LoginViewController.swift */; };
+		05C4E9491AD5019900F561D1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 05C4E9471AD5019900F561D1 /* Main.storyboard */; };
+		05C4E94B1AD5019900F561D1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 05C4E94A1AD5019900F561D1 /* Images.xcassets */; };
+		05C4E94E1AD5019900F561D1 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 05C4E94C1AD5019900F561D1 /* LaunchScreen.xib */; };
+		05C4E95A1AD5019900F561D1 /* Cisco_eReaderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05C4E9591AD5019900F561D1 /* Cisco_eReaderTests.swift */; };
+		05C4E9661AD50A6D00F561D1 /* ThemeGradientColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05C4E9651AD50A6D00F561D1 /* ThemeGradientColor.swift */; };
+		05C4E9681AD5301700F561D1 /* LibraryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05C4E9671AD5301700F561D1 /* LibraryViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		05C4E9541AD5019900F561D1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 05C4E9331AD5019900F561D1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 05C4E93A1AD5019900F561D1;
+			remoteInfo = "Cisco eReader";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		05C4E93B1AD5019900F561D1 /* Cisco eReader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Cisco eReader.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		05C4E93F1AD5019900F561D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		05C4E9401AD5019900F561D1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		05C4E9431AD5019900F561D1 /* Cisco_eReader.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Cisco_eReader.xcdatamodel; sourceTree = "<group>"; };
+		05C4E9451AD5019900F561D1 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		05C4E9481AD5019900F561D1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		05C4E94A1AD5019900F561D1 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		05C4E94D1AD5019900F561D1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		05C4E9531AD5019900F561D1 /* Cisco eReaderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Cisco eReaderTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		05C4E9581AD5019900F561D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		05C4E9591AD5019900F561D1 /* Cisco_eReaderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cisco_eReaderTests.swift; sourceTree = "<group>"; };
+		05C4E9651AD50A6D00F561D1 /* ThemeGradientColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ThemeGradientColor.swift; path = ../ThemeGradientColor.swift; sourceTree = "<group>"; };
+		05C4E9671AD5301700F561D1 /* LibraryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LibraryViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		05C4E9381AD5019900F561D1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05C4E9501AD5019900F561D1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		05C4E9321AD5019900F561D1 = {
+			isa = PBXGroup;
+			children = (
+				05C4E93D1AD5019900F561D1 /* Cisco eReader */,
+				05C4E9561AD5019900F561D1 /* Cisco eReaderTests */,
+				05C4E93C1AD5019900F561D1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		05C4E93C1AD5019900F561D1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				05C4E93B1AD5019900F561D1 /* Cisco eReader.app */,
+				05C4E9531AD5019900F561D1 /* Cisco eReaderTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		05C4E93D1AD5019900F561D1 /* Cisco eReader */ = {
+			isa = PBXGroup;
+			children = (
+				05C4E9401AD5019900F561D1 /* AppDelegate.swift */,
+				05C4E96A1AD5307F00F561D1 /* Models */,
+				05C4E9691AD5306F00F561D1 /* Controllers */,
+				05C4E96B1AD5309A00F561D1 /* Views */,
+				05C4E94A1AD5019900F561D1 /* Images.xcassets */,
+				05C4E9421AD5019900F561D1 /* Cisco_eReader.xcdatamodeld */,
+				05C4E93E1AD5019900F561D1 /* Supporting Files */,
+			);
+			path = "Cisco eReader";
+			sourceTree = "<group>";
+		};
+		05C4E93E1AD5019900F561D1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				05C4E93F1AD5019900F561D1 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		05C4E9561AD5019900F561D1 /* Cisco eReaderTests */ = {
+			isa = PBXGroup;
+			children = (
+				05C4E9591AD5019900F561D1 /* Cisco_eReaderTests.swift */,
+				05C4E9571AD5019900F561D1 /* Supporting Files */,
+			);
+			path = "Cisco eReaderTests";
+			sourceTree = "<group>";
+		};
+		05C4E9571AD5019900F561D1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				05C4E9581AD5019900F561D1 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		05C4E9691AD5306F00F561D1 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				05C4E9451AD5019900F561D1 /* LoginViewController.swift */,
+				05C4E9671AD5301700F561D1 /* LibraryViewController.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		05C4E96A1AD5307F00F561D1 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				05C4E9651AD50A6D00F561D1 /* ThemeGradientColor.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		05C4E96B1AD5309A00F561D1 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				05C4E9471AD5019900F561D1 /* Main.storyboard */,
+				05C4E94C1AD5019900F561D1 /* LaunchScreen.xib */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		05C4E93A1AD5019900F561D1 /* Cisco eReader */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 05C4E95D1AD5019900F561D1 /* Build configuration list for PBXNativeTarget "Cisco eReader" */;
+			buildPhases = (
+				05C4E9371AD5019900F561D1 /* Sources */,
+				05C4E9381AD5019900F561D1 /* Frameworks */,
+				05C4E9391AD5019900F561D1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Cisco eReader";
+			productName = "Cisco eReader";
+			productReference = 05C4E93B1AD5019900F561D1 /* Cisco eReader.app */;
+			productType = "com.apple.product-type.application";
+		};
+		05C4E9521AD5019900F561D1 /* Cisco eReaderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 05C4E9601AD5019900F561D1 /* Build configuration list for PBXNativeTarget "Cisco eReaderTests" */;
+			buildPhases = (
+				05C4E94F1AD5019900F561D1 /* Sources */,
+				05C4E9501AD5019900F561D1 /* Frameworks */,
+				05C4E9511AD5019900F561D1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				05C4E9551AD5019900F561D1 /* PBXTargetDependency */,
+			);
+			name = "Cisco eReaderTests";
+			productName = "Cisco eReaderTests";
+			productReference = 05C4E9531AD5019900F561D1 /* Cisco eReaderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		05C4E9331AD5019900F561D1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = "Raja Duraisamy";
+				TargetAttributes = {
+					05C4E93A1AD5019900F561D1 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					05C4E9521AD5019900F561D1 = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 05C4E93A1AD5019900F561D1;
+					};
+				};
+			};
+			buildConfigurationList = 05C4E9361AD5019900F561D1 /* Build configuration list for PBXProject "Cisco eReader" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 05C4E9321AD5019900F561D1;
+			productRefGroup = 05C4E93C1AD5019900F561D1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				05C4E93A1AD5019900F561D1 /* Cisco eReader */,
+				05C4E9521AD5019900F561D1 /* Cisco eReaderTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		05C4E9391AD5019900F561D1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05C4E9491AD5019900F561D1 /* Main.storyboard in Resources */,
+				05C4E94E1AD5019900F561D1 /* LaunchScreen.xib in Resources */,
+				05C4E94B1AD5019900F561D1 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05C4E9511AD5019900F561D1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		05C4E9371AD5019900F561D1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05C4E9461AD5019900F561D1 /* LoginViewController.swift in Sources */,
+				05C4E9681AD5301700F561D1 /* LibraryViewController.swift in Sources */,
+				05C4E9441AD5019900F561D1 /* Cisco_eReader.xcdatamodeld in Sources */,
+				05C4E9411AD5019900F561D1 /* AppDelegate.swift in Sources */,
+				05C4E9661AD50A6D00F561D1 /* ThemeGradientColor.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05C4E94F1AD5019900F561D1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05C4E95A1AD5019900F561D1 /* Cisco_eReaderTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		05C4E9551AD5019900F561D1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 05C4E93A1AD5019900F561D1 /* Cisco eReader */;
+			targetProxy = 05C4E9541AD5019900F561D1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		05C4E9471AD5019900F561D1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				05C4E9481AD5019900F561D1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		05C4E94C1AD5019900F561D1 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				05C4E94D1AD5019900F561D1 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		05C4E95B1AD5019900F561D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		05C4E95C1AD5019900F561D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		05C4E95E1AD5019900F561D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = "Cisco eReader/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		05C4E95F1AD5019900F561D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = "Cisco eReader/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		05C4E9611AD5019900F561D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Cisco eReaderTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cisco eReader.app/Cisco eReader";
+			};
+			name = Debug;
+		};
+		05C4E9621AD5019900F561D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Cisco eReaderTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cisco eReader.app/Cisco eReader";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		05C4E9361AD5019900F561D1 /* Build configuration list for PBXProject "Cisco eReader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05C4E95B1AD5019900F561D1 /* Debug */,
+				05C4E95C1AD5019900F561D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		05C4E95D1AD5019900F561D1 /* Build configuration list for PBXNativeTarget "Cisco eReader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05C4E95E1AD5019900F561D1 /* Debug */,
+				05C4E95F1AD5019900F561D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		05C4E9601AD5019900F561D1 /* Build configuration list for PBXNativeTarget "Cisco eReaderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05C4E9611AD5019900F561D1 /* Debug */,
+				05C4E9621AD5019900F561D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		05C4E9421AD5019900F561D1 /* Cisco_eReader.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				05C4E9431AD5019900F561D1 /* Cisco_eReader.xcdatamodel */,
+			);
+			currentVersion = 05C4E9431AD5019900F561D1 /* Cisco_eReader.xcdatamodel */;
+			path = Cisco_eReader.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 05C4E9331AD5019900F561D1 /* Project object */;
+}
