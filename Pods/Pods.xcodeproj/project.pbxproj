@@ -1,0 +1,1074 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0445C5BAE17E0AC0E3FF15FD /* AFURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 445E8EA59A0FB3FECB8F449D /* AFURLRequestSerialization.m */; };
+		04FD9082CC981DDCA932D735 /* AFHTTPRequestOperationManager.h in Headers */ = {isa = PBXBuildFile; fileRef = F75CAE9CB320587BC197BCAA /* AFHTTPRequestOperationManager.h */; };
+		0F1C27EEB5656D45BB42B207 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D8704AC5DCDD8EFDBED13D5 /* Foundation.framework */; };
+		16BF7B18C488334B8992E87D /* SSZipArchive.h in Headers */ = {isa = PBXBuildFile; fileRef = D870A51C41C812514FA61379 /* SSZipArchive.h */; };
+		17A4AF5B44871AAAE4F64AA0 /* unzip.c in Sources */ = {isa = PBXBuildFile; fileRef = 3718EF45F5B9C289779EDA75 /* unzip.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		17C619F318ABD3F4BDAABC39 /* UIImageView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = C5B666889AEDB90AB218EE8B /* UIImageView+AFNetworking.m */; };
+		1B69C1217194A2EDE963EAAD /* CocoaSecurity.h in Headers */ = {isa = PBXBuildFile; fileRef = BFBDDDD5C12B2A61FC5B9311 /* CocoaSecurity.h */; };
+		1E0EFD05397641FF1CFAE269 /* Pods-Cisco eReader-SSZipArchive-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C246C0B9D4E0BE55D671219 /* Pods-Cisco eReader-SSZipArchive-dummy.m */; };
+		2376A58A54FA1C91E00A6D55 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2902AB8FDA349AAA7B3C1CFE /* Security.framework */; };
+		23FFCCB6DA570F7DBB642D80 /* UIActivityIndicatorView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = D78D7B5CCC40D165DA19CD74 /* UIActivityIndicatorView+AFNetworking.m */; };
+		2952431FD332415011DFBC6D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D8704AC5DCDD8EFDBED13D5 /* Foundation.framework */; };
+		2CE13DDF7E8AA3DEDC925861 /* AFNetworkReachabilityManager.h in Headers */ = {isa = PBXBuildFile; fileRef = DA0EFB75A3DFAE84DC5E139D /* AFNetworkReachabilityManager.h */; };
+		2DAB4E7F16A7268BE2916ABE /* UIAlertView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = F584DD5A3D93A1554F8C6783 /* UIAlertView+AFNetworking.h */; };
+		2E90A93B1BFC8BCFF20A5F88 /* UIRefreshControl+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 23E5008D317313F4C471862C /* UIRefreshControl+AFNetworking.h */; };
+		3710FCCACD08110AFB937521 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D8704AC5DCDD8EFDBED13D5 /* Foundation.framework */; };
+		3DABA6E5757DB4648572850F /* AFHTTPRequestOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 72FDBB49B2EB95AAE92C6A47 /* AFHTTPRequestOperation.h */; };
+		3E8DF88C1B9A1694010B4DBD /* Base64.h in Headers */ = {isa = PBXBuildFile; fileRef = A163173A1402A0EBBEC97DBD /* Base64.h */; };
+		470BD5D564C84326ED0A99F8 /* AFNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F3957105BBC1150E26AB16D6 /* AFNetworkReachabilityManager.m */; };
+		47D7DFA8EB48E10B63D54D0C /* Pods-Cisco eReader-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5344F85C89791C2D83EAC04F /* Pods-Cisco eReader-dummy.m */; };
+		4D80D4449A22803CB04469FD /* UIButton+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 40D151ACB13CB341D6012221 /* UIButton+AFNetworking.m */; };
+		4DB9AD1919B7997F4077A060 /* UIWebView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 92D6D6F9DD1862B8116B4D0B /* UIWebView+AFNetworking.m */; };
+		518BE221D7CFAE863A9EC992 /* AFURLSessionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = C248F086B75704ED233C58A0 /* AFURLSessionManager.h */; };
+		532C1861BD508089B1219F24 /* AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = C8E3B7F2603CD4901427FCA0 /* AFNetworking.h */; };
+		54E68F6EBC1896258A3D4F0C /* UIButton+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = E9649EDAE4806686C71977F0 /* UIButton+AFNetworking.h */; };
+		571D2D437650F0CCAE9EC01F /* UIImageView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C1BD7BE9434928733C3F133 /* UIImageView+AFNetworking.h */; };
+		618F89116BAEE3401F4B46FF /* UIProgressView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 087A79DDFF99E4513A84DE5E /* UIProgressView+AFNetworking.h */; };
+		68808468E80A3A39DD351C54 /* Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = E1B688945C851F0D716A74BA /* Base64.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		69D6385C2090560BCE76E045 /* UIAlertView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = D13888E87C15BA5863D9CEA2 /* UIAlertView+AFNetworking.m */; };
+		71E1FD5E2B8AA5DC42C7E937 /* Pods-Cisco eReader-CocoaSecurity-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 757539465CA5B3DAAD122BB1 /* Pods-Cisco eReader-CocoaSecurity-dummy.m */; };
+		725859C73E657851A7930D9F /* UIRefreshControl+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 32CB4FD1FAAF63079FDAA000 /* UIRefreshControl+AFNetworking.m */; };
+		73D1341D2957ED7DF2C5A112 /* SSZipArchive.m in Sources */ = {isa = PBXBuildFile; fileRef = 08376347F6234D259AD70506 /* SSZipArchive.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		741BD54719F58A95004FB56A /* Pods-Cisco eReader-GDataXML-HTML-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F7DCDD60F65101266995C945 /* Pods-Cisco eReader-GDataXML-HTML-dummy.m */; };
+		77EF8F3C34BBBF9BD6842944 /* AFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 836F54376468D763186C3A37 /* AFHTTPSessionManager.m */; };
+		781F6347A1B6AB32CC331889 /* AFURLResponseSerialization.h in Headers */ = {isa = PBXBuildFile; fileRef = E14CC53EAE412FFB26B0A26D /* AFURLResponseSerialization.h */; };
+		807A692D902BB5E119C01ADF /* crypt.h in Headers */ = {isa = PBXBuildFile; fileRef = 3BA3B7598DEC1E0EE6C76DBE /* crypt.h */; };
+		81728CAB3DE11224D1A4E82B /* mztools.c in Sources */ = {isa = PBXBuildFile; fileRef = 49A4EC264ED6CF59780E82A9 /* mztools.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		8276D2D3E306769296252874 /* CocoaSecurity.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CC0455C78A2344C1A5AA968 /* CocoaSecurity.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		842FCC9BF3F6C4172746162A /* mztools.h in Headers */ = {isa = PBXBuildFile; fileRef = DF7A94E62E6A7A16E7673F01 /* mztools.h */; };
+		868E140F915E5FC8C9B3BD59 /* UIWebView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 450AC1B4D37401943F76D4CA /* UIWebView+AFNetworking.h */; };
+		873A4ACAC43B6B87DA8626B9 /* AFURLRequestSerialization.h in Headers */ = {isa = PBXBuildFile; fileRef = B3C1412F187660BE51AE3104 /* AFURLRequestSerialization.h */; };
+		87404891E10D75549CE34FBA /* AFSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = F3BF960B32052CBC8537259A /* AFSecurityPolicy.m */; };
+		8EF6C12B59E9604D76853F2A /* ioapi.h in Headers */ = {isa = PBXBuildFile; fileRef = D0E1054B2C5FF888C1BD26BE /* ioapi.h */; };
+		91FA12E8CE341927555358F1 /* GDataXMLNode.h in Headers */ = {isa = PBXBuildFile; fileRef = 068D6DF5FF1AE9CF0AFA6F42 /* GDataXMLNode.h */; };
+		92EDEFA4928FB5FA0AEC5D91 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D8704AC5DCDD8EFDBED13D5 /* Foundation.framework */; };
+		9987E009DC209852CEDB3F46 /* AFHTTPSessionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 85671A9C92D61E95E45D75A1 /* AFHTTPSessionManager.h */; };
+		9F355D95EE5A38C3BCC8FCBF /* AFHTTPRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 470390B1DC31D9E02DF05BD3 /* AFHTTPRequestOperation.m */; };
+		A3B0E032F6F1AB55AE1A7EA5 /* GDataXMLNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 350F2C99CCBBCF139D19F6EF /* GDataXMLNode.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		A5FF44036C8F89274AFB422A /* AFNetworkActivityIndicatorManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 548358E6DFB9DBBD15FA0446 /* AFNetworkActivityIndicatorManager.h */; };
+		B4943F52590DABED11546416 /* AFURLConnectionOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 363EE17EA0347F1FBE340497 /* AFURLConnectionOperation.h */; };
+		B512ED1026FAEB4F6E0A38F6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D8704AC5DCDD8EFDBED13D5 /* Foundation.framework */; };
+		BCFE66B8DCB73C7B1078050C /* AFHTTPRequestOperationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = DF4DF62924BB96E5983C91F6 /* AFHTTPRequestOperationManager.m */; };
+		C1AC8CAE4EBF2EFB8C654A31 /* AFURLConnectionOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D7865E1FFDBA60BE888D22B /* AFURLConnectionOperation.m */; };
+		CC903FF45138A9FBE01153DF /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 61F34613F45897CA972CBDB4 /* SystemConfiguration.framework */; };
+		CCA46030909906CC0186F4D9 /* UIKit+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 401C31F586D3150D911A2509 /* UIKit+AFNetworking.h */; };
+		CE55985F9AB98333EBBF0E41 /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 9217088E3B23B1CC09606C66 /* AFURLResponseSerialization.m */; };
+		CEDC375FD6D9B2B8CD163090 /* ioapi.c in Sources */ = {isa = PBXBuildFile; fileRef = 9B800420F8C668153155823D /* ioapi.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		CFAC648155265A75AF105E9C /* unzip.h in Headers */ = {isa = PBXBuildFile; fileRef = AADD04C5AB1389D20E684ACD /* unzip.h */; };
+		D957072178ACC09123AC6D7F /* Pods-Cisco eReader-AFNetworking-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A780A35CD48524EE53CCDA1 /* Pods-Cisco eReader-AFNetworking-dummy.m */; };
+		DA5463BA48F676EEEB4D1038 /* zip.c in Sources */ = {isa = PBXBuildFile; fileRef = 371C3301BAFBD1BA5AC52C91 /* zip.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		DE62C77A2341A72093E0EDCC /* UIProgressView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = B9DAC15142F453451515BB63 /* UIProgressView+AFNetworking.m */; };
+		E2B596B22F3840D581CCE8EC /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B70A2508B4EA7625857DA2C /* MobileCoreServices.framework */; };
+		EF52CF569511E929CE87AF68 /* AFSecurityPolicy.h in Headers */ = {isa = PBXBuildFile; fileRef = 561A554138EF6A33831AFEE9 /* AFSecurityPolicy.h */; };
+		F06CC22B1721A2586B0D7FAB /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 87204EB4D56AA171EDFDC15C /* AFURLSessionManager.m */; };
+		F91480007ED2F71B60E7B94C /* zip.h in Headers */ = {isa = PBXBuildFile; fileRef = C9F91F0356997994A43D0825 /* zip.h */; };
+		F9D6E24CA2F0F7DD705534EF /* AFNetworkActivityIndicatorManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4101327DD4602EC85741C1A5 /* AFNetworkActivityIndicatorManager.m */; };
+		FBF9E4B532197D01CD23040D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 418BD339EC007A28C02676F2 /* CoreGraphics.framework */; };
+		FF6779967B7B2E22397E070A /* UIActivityIndicatorView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = C9AD85D68939A4A16EAE8626 /* UIActivityIndicatorView+AFNetworking.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7503A495E607337CFA20350A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 649EFF2B692037622DA84899 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4CF0AF0CD888A2F7A86AF2A1;
+			remoteInfo = "Pods-Cisco eReader-AFNetworking";
+		};
+		892C67E65BC062E4EEBA4A68 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 649EFF2B692037622DA84899 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CB4CE96D547AFD500C031A95;
+			remoteInfo = "Pods-Cisco eReader-GDataXML-HTML";
+		};
+		CB57E09168FAB4D3C792E3CB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 649EFF2B692037622DA84899 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ED3E191B224F2848A15D3303;
+			remoteInfo = "Pods-Cisco eReader-SSZipArchive";
+		};
+		D942EE098F66AC812621C4BF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 649EFF2B692037622DA84899 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 78F85CA90701409F7873FACE;
+			remoteInfo = "Pods-Cisco eReader-CocoaSecurity";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01E2A23EAA0CA9498AEE285D /* Pods-Cisco eReader-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Cisco eReader-resources.sh"; sourceTree = "<group>"; };
+		068D6DF5FF1AE9CF0AFA6F42 /* GDataXMLNode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GDataXMLNode.h; path = Pod/Classes/GDataXMLNode.h; sourceTree = "<group>"; };
+		08376347F6234D259AD70506 /* SSZipArchive.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SSZipArchive.m; sourceTree = "<group>"; };
+		087A79DDFF99E4513A84DE5E /* UIProgressView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIProgressView+AFNetworking.h"; path = "UIKit+AFNetworking/UIProgressView+AFNetworking.h"; sourceTree = "<group>"; };
+		0B70A2508B4EA7625857DA2C /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/MobileCoreServices.framework; sourceTree = DEVELOPER_DIR; };
+		19609B55EA0AA2DE42D36907 /* Pods-Cisco eReader-CocoaSecurity-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Cisco eReader-CocoaSecurity-Private.xcconfig"; sourceTree = "<group>"; };
+		1C246C0B9D4E0BE55D671219 /* Pods-Cisco eReader-SSZipArchive-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Cisco eReader-SSZipArchive-dummy.m"; sourceTree = "<group>"; };
+		1CDC4D15CBB7E531A7632CF6 /* libPods-Cisco eReader-CocoaSecurity.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Cisco eReader-CocoaSecurity.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		23E5008D317313F4C471862C /* UIRefreshControl+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIRefreshControl+AFNetworking.h"; path = "UIKit+AFNetworking/UIRefreshControl+AFNetworking.h"; sourceTree = "<group>"; };
+		28C35E06A13521FF279E4FAD /* Pods-Cisco eReader-AFNetworking.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Cisco eReader-AFNetworking.xcconfig"; sourceTree = "<group>"; };
+		2902AB8FDA349AAA7B3C1CFE /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
+		2C1BD7BE9434928733C3F133 /* UIImageView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImageView+AFNetworking.h"; path = "UIKit+AFNetworking/UIImageView+AFNetworking.h"; sourceTree = "<group>"; };
+		2D8704AC5DCDD8EFDBED13D5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		32CB4FD1FAAF63079FDAA000 /* UIRefreshControl+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIRefreshControl+AFNetworking.m"; path = "UIKit+AFNetworking/UIRefreshControl+AFNetworking.m"; sourceTree = "<group>"; };
+		350F2C99CCBBCF139D19F6EF /* GDataXMLNode.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GDataXMLNode.m; path = Pod/Classes/GDataXMLNode.m; sourceTree = "<group>"; };
+		35619B8C6A852179FFE9F998 /* Pods-Cisco eReader-SSZipArchive-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Cisco eReader-SSZipArchive-prefix.pch"; sourceTree = "<group>"; };
+		363EE17EA0347F1FBE340497 /* AFURLConnectionOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLConnectionOperation.h; path = AFNetworking/AFURLConnectionOperation.h; sourceTree = "<group>"; };
+		3718EF45F5B9C289779EDA75 /* unzip.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = unzip.c; path = minizip/unzip.c; sourceTree = "<group>"; };
+		371C3301BAFBD1BA5AC52C91 /* zip.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = zip.c; path = minizip/zip.c; sourceTree = "<group>"; };
+		3BA3B7598DEC1E0EE6C76DBE /* crypt.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = crypt.h; path = minizip/crypt.h; sourceTree = "<group>"; };
+		401C31F586D3150D911A2509 /* UIKit+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIKit+AFNetworking.h"; path = "UIKit+AFNetworking/UIKit+AFNetworking.h"; sourceTree = "<group>"; };
+		40D151ACB13CB341D6012221 /* UIButton+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIButton+AFNetworking.m"; path = "UIKit+AFNetworking/UIButton+AFNetworking.m"; sourceTree = "<group>"; };
+		4101327DD4602EC85741C1A5 /* AFNetworkActivityIndicatorManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFNetworkActivityIndicatorManager.m; path = "UIKit+AFNetworking/AFNetworkActivityIndicatorManager.m"; sourceTree = "<group>"; };
+		418BD339EC007A28C02676F2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		445E8EA59A0FB3FECB8F449D /* AFURLRequestSerialization.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLRequestSerialization.m; path = AFNetworking/AFURLRequestSerialization.m; sourceTree = "<group>"; };
+		450AC1B4D37401943F76D4CA /* UIWebView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIWebView+AFNetworking.h"; path = "UIKit+AFNetworking/UIWebView+AFNetworking.h"; sourceTree = "<group>"; };
+		470390B1DC31D9E02DF05BD3 /* AFHTTPRequestOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFHTTPRequestOperation.m; path = AFNetworking/AFHTTPRequestOperation.m; sourceTree = "<group>"; };
+		49A4EC264ED6CF59780E82A9 /* mztools.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = mztools.c; path = minizip/mztools.c; sourceTree = "<group>"; };
+		4FFC7A88CAFA98CAD1653663 /* Pods-Cisco eReader-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Cisco eReader-environment.h"; sourceTree = "<group>"; };
+		507970A9747550BC5DD480F7 /* libPods-Cisco eReader.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Cisco eReader.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5344F85C89791C2D83EAC04F /* Pods-Cisco eReader-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Cisco eReader-dummy.m"; sourceTree = "<group>"; };
+		548358E6DFB9DBBD15FA0446 /* AFNetworkActivityIndicatorManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFNetworkActivityIndicatorManager.h; path = "UIKit+AFNetworking/AFNetworkActivityIndicatorManager.h"; sourceTree = "<group>"; };
+		561A554138EF6A33831AFEE9 /* AFSecurityPolicy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFSecurityPolicy.h; path = AFNetworking/AFSecurityPolicy.h; sourceTree = "<group>"; };
+		5635B8AC8A73A3DD8AAF3999 /* Pods-Cisco eReader-GDataXML-HTML-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Cisco eReader-GDataXML-HTML-prefix.pch"; sourceTree = "<group>"; };
+		61F34613F45897CA972CBDB4 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
+		69D3FEF80DBDDCCCBF2DE6AD /* libPods-Cisco eReader-GDataXML-HTML.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Cisco eReader-GDataXML-HTML.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6DE23E2183365C412937C1FC /* Pods-Cisco eReader.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Cisco eReader.release.xcconfig"; sourceTree = "<group>"; };
+		721C34CB4DB771D1E78EEE72 /* Pods-Cisco eReader-SSZipArchive-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Cisco eReader-SSZipArchive-Private.xcconfig"; sourceTree = "<group>"; };
+		72FDBB49B2EB95AAE92C6A47 /* AFHTTPRequestOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFHTTPRequestOperation.h; path = AFNetworking/AFHTTPRequestOperation.h; sourceTree = "<group>"; };
+		757539465CA5B3DAAD122BB1 /* Pods-Cisco eReader-CocoaSecurity-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Cisco eReader-CocoaSecurity-dummy.m"; sourceTree = "<group>"; };
+		786BC63C66FF56BE83297D42 /* Pods-Cisco eReader-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Cisco eReader-acknowledgements.plist"; sourceTree = "<group>"; };
+		7881FB4DEC9FB42C95EDF635 /* libPods-Cisco eReader-AFNetworking.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Cisco eReader-AFNetworking.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7DB8831D8399EA2D9CDDB72E /* Pods-Cisco eReader-SSZipArchive.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Cisco eReader-SSZipArchive.xcconfig"; sourceTree = "<group>"; };
+		836F54376468D763186C3A37 /* AFHTTPSessionManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFHTTPSessionManager.m; path = AFNetworking/AFHTTPSessionManager.m; sourceTree = "<group>"; };
+		85671A9C92D61E95E45D75A1 /* AFHTTPSessionManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFHTTPSessionManager.h; path = AFNetworking/AFHTTPSessionManager.h; sourceTree = "<group>"; };
+		87204EB4D56AA171EDFDC15C /* AFURLSessionManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLSessionManager.m; path = AFNetworking/AFURLSessionManager.m; sourceTree = "<group>"; };
+		8A780A35CD48524EE53CCDA1 /* Pods-Cisco eReader-AFNetworking-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Cisco eReader-AFNetworking-dummy.m"; sourceTree = "<group>"; };
+		8CC0455C78A2344C1A5AA968 /* CocoaSecurity.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CocoaSecurity.m; path = CocoaSecurity/CocoaSecurity.m; sourceTree = "<group>"; };
+		8D7865E1FFDBA60BE888D22B /* AFURLConnectionOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLConnectionOperation.m; path = AFNetworking/AFURLConnectionOperation.m; sourceTree = "<group>"; };
+		8FA2C09C92829452DAD40F9F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9217088E3B23B1CC09606C66 /* AFURLResponseSerialization.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLResponseSerialization.m; path = AFNetworking/AFURLResponseSerialization.m; sourceTree = "<group>"; };
+		92D6D6F9DD1862B8116B4D0B /* UIWebView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIWebView+AFNetworking.m"; path = "UIKit+AFNetworking/UIWebView+AFNetworking.m"; sourceTree = "<group>"; };
+		9B800420F8C668153155823D /* ioapi.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = ioapi.c; path = minizip/ioapi.c; sourceTree = "<group>"; };
+		9FA8949F660561F658DD5732 /* libPods-Cisco eReader-SSZipArchive.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Cisco eReader-SSZipArchive.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9FEFAC38C1C75611ED243BB7 /* Pods-Cisco eReader-GDataXML-HTML-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Cisco eReader-GDataXML-HTML-Private.xcconfig"; sourceTree = "<group>"; };
+		A1555A1BF3CB374EA67B9DE1 /* Pods-Cisco eReader-AFNetworking-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Cisco eReader-AFNetworking-prefix.pch"; sourceTree = "<group>"; };
+		A163173A1402A0EBBEC97DBD /* Base64.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Base64.h; path = submodules/Base64/Base64/Base64.h; sourceTree = "<group>"; };
+		A280CE3BA63BC9E800928B33 /* Pods-Cisco eReader.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Cisco eReader.debug.xcconfig"; sourceTree = "<group>"; };
+		AADD04C5AB1389D20E684ACD /* unzip.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = unzip.h; path = minizip/unzip.h; sourceTree = "<group>"; };
+		B3C1412F187660BE51AE3104 /* AFURLRequestSerialization.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLRequestSerialization.h; path = AFNetworking/AFURLRequestSerialization.h; sourceTree = "<group>"; };
+		B9DAC15142F453451515BB63 /* UIProgressView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIProgressView+AFNetworking.m"; path = "UIKit+AFNetworking/UIProgressView+AFNetworking.m"; sourceTree = "<group>"; };
+		BD57151F16D803F3D6C8C068 /* Pods-Cisco eReader-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Cisco eReader-acknowledgements.markdown"; sourceTree = "<group>"; };
+		BEEC9D6DA106F56D2ED0D262 /* Pods-Cisco eReader-AFNetworking-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Cisco eReader-AFNetworking-Private.xcconfig"; sourceTree = "<group>"; };
+		BFBDDDD5C12B2A61FC5B9311 /* CocoaSecurity.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CocoaSecurity.h; path = CocoaSecurity/CocoaSecurity.h; sourceTree = "<group>"; };
+		C248F086B75704ED233C58A0 /* AFURLSessionManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLSessionManager.h; path = AFNetworking/AFURLSessionManager.h; sourceTree = "<group>"; };
+		C5B666889AEDB90AB218EE8B /* UIImageView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImageView+AFNetworking.m"; path = "UIKit+AFNetworking/UIImageView+AFNetworking.m"; sourceTree = "<group>"; };
+		C8E3B7F2603CD4901427FCA0 /* AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFNetworking.h; path = AFNetworking/AFNetworking.h; sourceTree = "<group>"; };
+		C9AD85D68939A4A16EAE8626 /* UIActivityIndicatorView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIActivityIndicatorView+AFNetworking.h"; path = "UIKit+AFNetworking/UIActivityIndicatorView+AFNetworking.h"; sourceTree = "<group>"; };
+		C9F91F0356997994A43D0825 /* zip.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = zip.h; path = minizip/zip.h; sourceTree = "<group>"; };
+		D0E1054B2C5FF888C1BD26BE /* ioapi.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ioapi.h; path = minizip/ioapi.h; sourceTree = "<group>"; };
+		D13888E87C15BA5863D9CEA2 /* UIAlertView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIAlertView+AFNetworking.m"; path = "UIKit+AFNetworking/UIAlertView+AFNetworking.m"; sourceTree = "<group>"; };
+		D55D00BEF00BB2A37EEBB441 /* Pods-Cisco eReader-CocoaSecurity-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Cisco eReader-CocoaSecurity-prefix.pch"; sourceTree = "<group>"; };
+		D78D7B5CCC40D165DA19CD74 /* UIActivityIndicatorView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIActivityIndicatorView+AFNetworking.m"; path = "UIKit+AFNetworking/UIActivityIndicatorView+AFNetworking.m"; sourceTree = "<group>"; };
+		D870A51C41C812514FA61379 /* SSZipArchive.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SSZipArchive.h; sourceTree = "<group>"; };
+		DA0EFB75A3DFAE84DC5E139D /* AFNetworkReachabilityManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFNetworkReachabilityManager.h; path = AFNetworking/AFNetworkReachabilityManager.h; sourceTree = "<group>"; };
+		DF4DF62924BB96E5983C91F6 /* AFHTTPRequestOperationManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFHTTPRequestOperationManager.m; path = AFNetworking/AFHTTPRequestOperationManager.m; sourceTree = "<group>"; };
+		DF665481894198B2677B620E /* Pods-Cisco eReader-CocoaSecurity.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Cisco eReader-CocoaSecurity.xcconfig"; sourceTree = "<group>"; };
+		DF7A94E62E6A7A16E7673F01 /* mztools.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = mztools.h; path = minizip/mztools.h; sourceTree = "<group>"; };
+		E14CC53EAE412FFB26B0A26D /* AFURLResponseSerialization.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLResponseSerialization.h; path = AFNetworking/AFURLResponseSerialization.h; sourceTree = "<group>"; };
+		E1B688945C851F0D716A74BA /* Base64.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = Base64.m; path = submodules/Base64/Base64/Base64.m; sourceTree = "<group>"; };
+		E6281CF1B868C35479D4D184 /* Pods-Cisco eReader-GDataXML-HTML.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Cisco eReader-GDataXML-HTML.xcconfig"; sourceTree = "<group>"; };
+		E9649EDAE4806686C71977F0 /* UIButton+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIButton+AFNetworking.h"; path = "UIKit+AFNetworking/UIButton+AFNetworking.h"; sourceTree = "<group>"; };
+		F3957105BBC1150E26AB16D6 /* AFNetworkReachabilityManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFNetworkReachabilityManager.m; path = AFNetworking/AFNetworkReachabilityManager.m; sourceTree = "<group>"; };
+		F3BF960B32052CBC8537259A /* AFSecurityPolicy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFSecurityPolicy.m; path = AFNetworking/AFSecurityPolicy.m; sourceTree = "<group>"; };
+		F584DD5A3D93A1554F8C6783 /* UIAlertView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIAlertView+AFNetworking.h"; path = "UIKit+AFNetworking/UIAlertView+AFNetworking.h"; sourceTree = "<group>"; };
+		F75CAE9CB320587BC197BCAA /* AFHTTPRequestOperationManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFHTTPRequestOperationManager.h; path = AFNetworking/AFHTTPRequestOperationManager.h; sourceTree = "<group>"; };
+		F7DCDD60F65101266995C945 /* Pods-Cisco eReader-GDataXML-HTML-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Cisco eReader-GDataXML-HTML-dummy.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		156722E2AE6F0B0E12EA5F09 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3710FCCACD08110AFB937521 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43131435753BEAF0BD88897C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2952431FD332415011DFBC6D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		791A4DD0605C23C829906D34 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F1C27EEB5656D45BB42B207 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2311ED602CEF6BC47446331 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBF9E4B532197D01CD23040D /* CoreGraphics.framework in Frameworks */,
+				92EDEFA4928FB5FA0AEC5D91 /* Foundation.framework in Frameworks */,
+				E2B596B22F3840D581CCE8EC /* MobileCoreServices.framework in Frameworks */,
+				2376A58A54FA1C91E00A6D55 /* Security.framework in Frameworks */,
+				CC903FF45138A9FBE01153DF /* SystemConfiguration.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB95D531A2F7FF259C9A4F46 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B512ED1026FAEB4F6E0A38F6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		13A2874D5589C947BF1B77B8 /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				548358E6DFB9DBBD15FA0446 /* AFNetworkActivityIndicatorManager.h */,
+				4101327DD4602EC85741C1A5 /* AFNetworkActivityIndicatorManager.m */,
+				C9AD85D68939A4A16EAE8626 /* UIActivityIndicatorView+AFNetworking.h */,
+				D78D7B5CCC40D165DA19CD74 /* UIActivityIndicatorView+AFNetworking.m */,
+				F584DD5A3D93A1554F8C6783 /* UIAlertView+AFNetworking.h */,
+				D13888E87C15BA5863D9CEA2 /* UIAlertView+AFNetworking.m */,
+				E9649EDAE4806686C71977F0 /* UIButton+AFNetworking.h */,
+				40D151ACB13CB341D6012221 /* UIButton+AFNetworking.m */,
+				2C1BD7BE9434928733C3F133 /* UIImageView+AFNetworking.h */,
+				C5B666889AEDB90AB218EE8B /* UIImageView+AFNetworking.m */,
+				401C31F586D3150D911A2509 /* UIKit+AFNetworking.h */,
+				087A79DDFF99E4513A84DE5E /* UIProgressView+AFNetworking.h */,
+				B9DAC15142F453451515BB63 /* UIProgressView+AFNetworking.m */,
+				23E5008D317313F4C471862C /* UIRefreshControl+AFNetworking.h */,
+				32CB4FD1FAAF63079FDAA000 /* UIRefreshControl+AFNetworking.m */,
+				450AC1B4D37401943F76D4CA /* UIWebView+AFNetworking.h */,
+				92D6D6F9DD1862B8116B4D0B /* UIWebView+AFNetworking.m */,
+			);
+			name = UIKit;
+			sourceTree = "<group>";
+		};
+		1A43E9740F716E3B230C14B1 /* Security */ = {
+			isa = PBXGroup;
+			children = (
+				561A554138EF6A33831AFEE9 /* AFSecurityPolicy.h */,
+				F3BF960B32052CBC8537259A /* AFSecurityPolicy.m */,
+			);
+			name = Security;
+			sourceTree = "<group>";
+		};
+		33771D0B46B22723A91F7542 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6D295D071118710154FC88B3 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		391F0182EB50BEA827086A69 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				822A08E5D0FEC9D25A77CEBA /* AFNetworking */,
+				A2A8139F6D582BE1FAEDC34E /* CocoaSecurity */,
+				6463FD4B6C2BB616C252969E /* GDataXML-HTML */,
+				C9202BD400E6EEDA037EF086 /* SSZipArchive */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		3F1B19B4FF4ECCFCFE7C6C6D /* NSURLConnection */ = {
+			isa = PBXGroup;
+			children = (
+				72FDBB49B2EB95AAE92C6A47 /* AFHTTPRequestOperation.h */,
+				470390B1DC31D9E02DF05BD3 /* AFHTTPRequestOperation.m */,
+				F75CAE9CB320587BC197BCAA /* AFHTTPRequestOperationManager.h */,
+				DF4DF62924BB96E5983C91F6 /* AFHTTPRequestOperationManager.m */,
+				363EE17EA0347F1FBE340497 /* AFURLConnectionOperation.h */,
+				8D7865E1FFDBA60BE888D22B /* AFURLConnectionOperation.m */,
+			);
+			name = NSURLConnection;
+			sourceTree = "<group>";
+		};
+		490F1C32DC23897238812AFC /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				DF665481894198B2677B620E /* Pods-Cisco eReader-CocoaSecurity.xcconfig */,
+				19609B55EA0AA2DE42D36907 /* Pods-Cisco eReader-CocoaSecurity-Private.xcconfig */,
+				757539465CA5B3DAAD122BB1 /* Pods-Cisco eReader-CocoaSecurity-dummy.m */,
+				D55D00BEF00BB2A37EEBB441 /* Pods-Cisco eReader-CocoaSecurity-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-Cisco eReader-CocoaSecurity";
+			sourceTree = "<group>";
+		};
+		5F24BCC3F01C859F7D36C0C9 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				28C35E06A13521FF279E4FAD /* Pods-Cisco eReader-AFNetworking.xcconfig */,
+				BEEC9D6DA106F56D2ED0D262 /* Pods-Cisco eReader-AFNetworking-Private.xcconfig */,
+				8A780A35CD48524EE53CCDA1 /* Pods-Cisco eReader-AFNetworking-dummy.m */,
+				A1555A1BF3CB374EA67B9DE1 /* Pods-Cisco eReader-AFNetworking-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-Cisco eReader-AFNetworking";
+			sourceTree = "<group>";
+		};
+		6463FD4B6C2BB616C252969E /* GDataXML-HTML */ = {
+			isa = PBXGroup;
+			children = (
+				068D6DF5FF1AE9CF0AFA6F42 /* GDataXMLNode.h */,
+				350F2C99CCBBCF139D19F6EF /* GDataXMLNode.m */,
+				920046E5500609D83E6967DC /* Support Files */,
+			);
+			path = "GDataXML-HTML";
+			sourceTree = "<group>";
+		};
+		6D295D071118710154FC88B3 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				418BD339EC007A28C02676F2 /* CoreGraphics.framework */,
+				2D8704AC5DCDD8EFDBED13D5 /* Foundation.framework */,
+				0B70A2508B4EA7625857DA2C /* MobileCoreServices.framework */,
+				2902AB8FDA349AAA7B3C1CFE /* Security.framework */,
+				61F34613F45897CA972CBDB4 /* SystemConfiguration.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7ADA67B7D50E184C84DC174F /* Reachability */ = {
+			isa = PBXGroup;
+			children = (
+				DA0EFB75A3DFAE84DC5E139D /* AFNetworkReachabilityManager.h */,
+				F3957105BBC1150E26AB16D6 /* AFNetworkReachabilityManager.m */,
+			);
+			name = Reachability;
+			sourceTree = "<group>";
+		};
+		822A08E5D0FEC9D25A77CEBA /* AFNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				C8E3B7F2603CD4901427FCA0 /* AFNetworking.h */,
+				3F1B19B4FF4ECCFCFE7C6C6D /* NSURLConnection */,
+				918CED07E17B434BDD69F304 /* NSURLSession */,
+				7ADA67B7D50E184C84DC174F /* Reachability */,
+				1A43E9740F716E3B230C14B1 /* Security */,
+				A1FABC938D44EF90D0391F8B /* Serialization */,
+				5F24BCC3F01C859F7D36C0C9 /* Support Files */,
+				13A2874D5589C947BF1B77B8 /* UIKit */,
+			);
+			path = AFNetworking;
+			sourceTree = "<group>";
+		};
+		859866D9B052D751C0586ACE /* Pods-Cisco eReader */ = {
+			isa = PBXGroup;
+			children = (
+				BD57151F16D803F3D6C8C068 /* Pods-Cisco eReader-acknowledgements.markdown */,
+				786BC63C66FF56BE83297D42 /* Pods-Cisco eReader-acknowledgements.plist */,
+				5344F85C89791C2D83EAC04F /* Pods-Cisco eReader-dummy.m */,
+				4FFC7A88CAFA98CAD1653663 /* Pods-Cisco eReader-environment.h */,
+				01E2A23EAA0CA9498AEE285D /* Pods-Cisco eReader-resources.sh */,
+				A280CE3BA63BC9E800928B33 /* Pods-Cisco eReader.debug.xcconfig */,
+				6DE23E2183365C412937C1FC /* Pods-Cisco eReader.release.xcconfig */,
+			);
+			name = "Pods-Cisco eReader";
+			path = "Target Support Files/Pods-Cisco eReader";
+			sourceTree = "<group>";
+		};
+		918CED07E17B434BDD69F304 /* NSURLSession */ = {
+			isa = PBXGroup;
+			children = (
+				85671A9C92D61E95E45D75A1 /* AFHTTPSessionManager.h */,
+				836F54376468D763186C3A37 /* AFHTTPSessionManager.m */,
+				C248F086B75704ED233C58A0 /* AFURLSessionManager.h */,
+				87204EB4D56AA171EDFDC15C /* AFURLSessionManager.m */,
+			);
+			name = NSURLSession;
+			sourceTree = "<group>";
+		};
+		920046E5500609D83E6967DC /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E6281CF1B868C35479D4D184 /* Pods-Cisco eReader-GDataXML-HTML.xcconfig */,
+				9FEFAC38C1C75611ED243BB7 /* Pods-Cisco eReader-GDataXML-HTML-Private.xcconfig */,
+				F7DCDD60F65101266995C945 /* Pods-Cisco eReader-GDataXML-HTML-dummy.m */,
+				5635B8AC8A73A3DD8AAF3999 /* Pods-Cisco eReader-GDataXML-HTML-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-Cisco eReader-GDataXML-HTML";
+			sourceTree = "<group>";
+		};
+		A1FABC938D44EF90D0391F8B /* Serialization */ = {
+			isa = PBXGroup;
+			children = (
+				B3C1412F187660BE51AE3104 /* AFURLRequestSerialization.h */,
+				445E8EA59A0FB3FECB8F449D /* AFURLRequestSerialization.m */,
+				E14CC53EAE412FFB26B0A26D /* AFURLResponseSerialization.h */,
+				9217088E3B23B1CC09606C66 /* AFURLResponseSerialization.m */,
+			);
+			name = Serialization;
+			sourceTree = "<group>";
+		};
+		A2A8139F6D582BE1FAEDC34E /* CocoaSecurity */ = {
+			isa = PBXGroup;
+			children = (
+				A163173A1402A0EBBEC97DBD /* Base64.h */,
+				E1B688945C851F0D716A74BA /* Base64.m */,
+				BFBDDDD5C12B2A61FC5B9311 /* CocoaSecurity.h */,
+				8CC0455C78A2344C1A5AA968 /* CocoaSecurity.m */,
+				490F1C32DC23897238812AFC /* Support Files */,
+			);
+			path = CocoaSecurity;
+			sourceTree = "<group>";
+		};
+		A383FED7DA114A0BA9C8BFEE /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				859866D9B052D751C0586ACE /* Pods-Cisco eReader */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		BCF4CA270363AD4E1FC62236 = {
+			isa = PBXGroup;
+			children = (
+				8FA2C09C92829452DAD40F9F /* Podfile */,
+				33771D0B46B22723A91F7542 /* Frameworks */,
+				391F0182EB50BEA827086A69 /* Pods */,
+				DB7B502153B897BD731FF840 /* Products */,
+				A383FED7DA114A0BA9C8BFEE /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		C9202BD400E6EEDA037EF086 /* SSZipArchive */ = {
+			isa = PBXGroup;
+			children = (
+				D870A51C41C812514FA61379 /* SSZipArchive.h */,
+				08376347F6234D259AD70506 /* SSZipArchive.m */,
+				3BA3B7598DEC1E0EE6C76DBE /* crypt.h */,
+				9B800420F8C668153155823D /* ioapi.c */,
+				D0E1054B2C5FF888C1BD26BE /* ioapi.h */,
+				49A4EC264ED6CF59780E82A9 /* mztools.c */,
+				DF7A94E62E6A7A16E7673F01 /* mztools.h */,
+				3718EF45F5B9C289779EDA75 /* unzip.c */,
+				AADD04C5AB1389D20E684ACD /* unzip.h */,
+				371C3301BAFBD1BA5AC52C91 /* zip.c */,
+				C9F91F0356997994A43D0825 /* zip.h */,
+				CB4CEC10EE60AB10C8AB3405 /* Support Files */,
+			);
+			path = SSZipArchive;
+			sourceTree = "<group>";
+		};
+		CB4CEC10EE60AB10C8AB3405 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7DB8831D8399EA2D9CDDB72E /* Pods-Cisco eReader-SSZipArchive.xcconfig */,
+				721C34CB4DB771D1E78EEE72 /* Pods-Cisco eReader-SSZipArchive-Private.xcconfig */,
+				1C246C0B9D4E0BE55D671219 /* Pods-Cisco eReader-SSZipArchive-dummy.m */,
+				35619B8C6A852179FFE9F998 /* Pods-Cisco eReader-SSZipArchive-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-Cisco eReader-SSZipArchive";
+			sourceTree = "<group>";
+		};
+		DB7B502153B897BD731FF840 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				507970A9747550BC5DD480F7 /* libPods-Cisco eReader.a */,
+				7881FB4DEC9FB42C95EDF635 /* libPods-Cisco eReader-AFNetworking.a */,
+				1CDC4D15CBB7E531A7632CF6 /* libPods-Cisco eReader-CocoaSecurity.a */,
+				69D3FEF80DBDDCCCBF2DE6AD /* libPods-Cisco eReader-GDataXML-HTML.a */,
+				9FA8949F660561F658DD5732 /* libPods-Cisco eReader-SSZipArchive.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		48B68D6BD57BDD018FB0062A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16BF7B18C488334B8992E87D /* SSZipArchive.h in Headers */,
+				807A692D902BB5E119C01ADF /* crypt.h in Headers */,
+				8EF6C12B59E9604D76853F2A /* ioapi.h in Headers */,
+				842FCC9BF3F6C4172746162A /* mztools.h in Headers */,
+				CFAC648155265A75AF105E9C /* unzip.h in Headers */,
+				F91480007ED2F71B60E7B94C /* zip.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4EEFBEB7912AC4B978ED7AD8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91FA12E8CE341927555358F1 /* GDataXMLNode.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFE068481196C2784F757827 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E8DF88C1B9A1694010B4DBD /* Base64.h in Headers */,
+				1B69C1217194A2EDE963EAAD /* CocoaSecurity.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6F32BB98428CB6CF8B6B2D3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DABA6E5757DB4648572850F /* AFHTTPRequestOperation.h in Headers */,
+				04FD9082CC981DDCA932D735 /* AFHTTPRequestOperationManager.h in Headers */,
+				9987E009DC209852CEDB3F46 /* AFHTTPSessionManager.h in Headers */,
+				A5FF44036C8F89274AFB422A /* AFNetworkActivityIndicatorManager.h in Headers */,
+				2CE13DDF7E8AA3DEDC925861 /* AFNetworkReachabilityManager.h in Headers */,
+				532C1861BD508089B1219F24 /* AFNetworking.h in Headers */,
+				EF52CF569511E929CE87AF68 /* AFSecurityPolicy.h in Headers */,
+				B4943F52590DABED11546416 /* AFURLConnectionOperation.h in Headers */,
+				873A4ACAC43B6B87DA8626B9 /* AFURLRequestSerialization.h in Headers */,
+				781F6347A1B6AB32CC331889 /* AFURLResponseSerialization.h in Headers */,
+				518BE221D7CFAE863A9EC992 /* AFURLSessionManager.h in Headers */,
+				FF6779967B7B2E22397E070A /* UIActivityIndicatorView+AFNetworking.h in Headers */,
+				2DAB4E7F16A7268BE2916ABE /* UIAlertView+AFNetworking.h in Headers */,
+				54E68F6EBC1896258A3D4F0C /* UIButton+AFNetworking.h in Headers */,
+				571D2D437650F0CCAE9EC01F /* UIImageView+AFNetworking.h in Headers */,
+				CCA46030909906CC0186F4D9 /* UIKit+AFNetworking.h in Headers */,
+				618F89116BAEE3401F4B46FF /* UIProgressView+AFNetworking.h in Headers */,
+				2E90A93B1BFC8BCFF20A5F88 /* UIRefreshControl+AFNetworking.h in Headers */,
+				868E140F915E5FC8C9B3BD59 /* UIWebView+AFNetworking.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1701E1D5CE0F31F4F8D9C111 /* Pods-Cisco eReader */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3143613E3A64B23A45C799E6 /* Build configuration list for PBXNativeTarget "Pods-Cisco eReader" */;
+			buildPhases = (
+				884C6830B995F5DA27BBE31F /* Sources */,
+				43131435753BEAF0BD88897C /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				45D9BAC7400732CABCFC2B40 /* PBXTargetDependency */,
+				803EBF530DF33427CC3C551C /* PBXTargetDependency */,
+				CD1356D60BAEBC26B2FD77ED /* PBXTargetDependency */,
+				6B819BE1474C3668AD56F311 /* PBXTargetDependency */,
+			);
+			name = "Pods-Cisco eReader";
+			productName = "Pods-Cisco eReader";
+			productReference = 507970A9747550BC5DD480F7 /* libPods-Cisco eReader.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		4CF0AF0CD888A2F7A86AF2A1 /* Pods-Cisco eReader-AFNetworking */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6C0B27A13B9E2189D75D5AD1 /* Build configuration list for PBXNativeTarget "Pods-Cisco eReader-AFNetworking" */;
+			buildPhases = (
+				DA93C4A73809DEAB95E13D0E /* Sources */,
+				C2311ED602CEF6BC47446331 /* Frameworks */,
+				E6F32BB98428CB6CF8B6B2D3 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-Cisco eReader-AFNetworking";
+			productName = "Pods-Cisco eReader-AFNetworking";
+			productReference = 7881FB4DEC9FB42C95EDF635 /* libPods-Cisco eReader-AFNetworking.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		78F85CA90701409F7873FACE /* Pods-Cisco eReader-CocoaSecurity */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 73E95E7CF855AD5FE7A0928C /* Build configuration list for PBXNativeTarget "Pods-Cisco eReader-CocoaSecurity" */;
+			buildPhases = (
+				9C0360326B86AFFE5D7FB7CD /* Sources */,
+				156722E2AE6F0B0E12EA5F09 /* Frameworks */,
+				DFE068481196C2784F757827 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-Cisco eReader-CocoaSecurity";
+			productName = "Pods-Cisco eReader-CocoaSecurity";
+			productReference = 1CDC4D15CBB7E531A7632CF6 /* libPods-Cisco eReader-CocoaSecurity.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		CB4CE96D547AFD500C031A95 /* Pods-Cisco eReader-GDataXML-HTML */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 28AE2A415E3141EFB3502A8D /* Build configuration list for PBXNativeTarget "Pods-Cisco eReader-GDataXML-HTML" */;
+			buildPhases = (
+				126B03D0E9D0C59ACB6C1023 /* Sources */,
+				791A4DD0605C23C829906D34 /* Frameworks */,
+				4EEFBEB7912AC4B978ED7AD8 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-Cisco eReader-GDataXML-HTML";
+			productName = "Pods-Cisco eReader-GDataXML-HTML";
+			productReference = 69D3FEF80DBDDCCCBF2DE6AD /* libPods-Cisco eReader-GDataXML-HTML.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		ED3E191B224F2848A15D3303 /* Pods-Cisco eReader-SSZipArchive */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DDFB8B154888E6B21DFE6702 /* Build configuration list for PBXNativeTarget "Pods-Cisco eReader-SSZipArchive" */;
+			buildPhases = (
+				576D18FB3758248610E60BAB /* Sources */,
+				DB95D531A2F7FF259C9A4F46 /* Frameworks */,
+				48B68D6BD57BDD018FB0062A /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-Cisco eReader-SSZipArchive";
+			productName = "Pods-Cisco eReader-SSZipArchive";
+			productReference = 9FA8949F660561F658DD5732 /* libPods-Cisco eReader-SSZipArchive.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		649EFF2B692037622DA84899 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+			};
+			buildConfigurationList = 9BD51E2AB00AB0863E383B11 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = BCF4CA270363AD4E1FC62236;
+			productRefGroup = DB7B502153B897BD731FF840 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1701E1D5CE0F31F4F8D9C111 /* Pods-Cisco eReader */,
+				4CF0AF0CD888A2F7A86AF2A1 /* Pods-Cisco eReader-AFNetworking */,
+				78F85CA90701409F7873FACE /* Pods-Cisco eReader-CocoaSecurity */,
+				CB4CE96D547AFD500C031A95 /* Pods-Cisco eReader-GDataXML-HTML */,
+				ED3E191B224F2848A15D3303 /* Pods-Cisco eReader-SSZipArchive */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		126B03D0E9D0C59ACB6C1023 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3B0E032F6F1AB55AE1A7EA5 /* GDataXMLNode.m in Sources */,
+				741BD54719F58A95004FB56A /* Pods-Cisco eReader-GDataXML-HTML-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		576D18FB3758248610E60BAB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E0EFD05397641FF1CFAE269 /* Pods-Cisco eReader-SSZipArchive-dummy.m in Sources */,
+				73D1341D2957ED7DF2C5A112 /* SSZipArchive.m in Sources */,
+				CEDC375FD6D9B2B8CD163090 /* ioapi.c in Sources */,
+				81728CAB3DE11224D1A4E82B /* mztools.c in Sources */,
+				17A4AF5B44871AAAE4F64AA0 /* unzip.c in Sources */,
+				DA5463BA48F676EEEB4D1038 /* zip.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		884C6830B995F5DA27BBE31F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47D7DFA8EB48E10B63D54D0C /* Pods-Cisco eReader-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C0360326B86AFFE5D7FB7CD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68808468E80A3A39DD351C54 /* Base64.m in Sources */,
+				8276D2D3E306769296252874 /* CocoaSecurity.m in Sources */,
+				71E1FD5E2B8AA5DC42C7E937 /* Pods-Cisco eReader-CocoaSecurity-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA93C4A73809DEAB95E13D0E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F355D95EE5A38C3BCC8FCBF /* AFHTTPRequestOperation.m in Sources */,
+				BCFE66B8DCB73C7B1078050C /* AFHTTPRequestOperationManager.m in Sources */,
+				77EF8F3C34BBBF9BD6842944 /* AFHTTPSessionManager.m in Sources */,
+				F9D6E24CA2F0F7DD705534EF /* AFNetworkActivityIndicatorManager.m in Sources */,
+				470BD5D564C84326ED0A99F8 /* AFNetworkReachabilityManager.m in Sources */,
+				87404891E10D75549CE34FBA /* AFSecurityPolicy.m in Sources */,
+				C1AC8CAE4EBF2EFB8C654A31 /* AFURLConnectionOperation.m in Sources */,
+				0445C5BAE17E0AC0E3FF15FD /* AFURLRequestSerialization.m in Sources */,
+				CE55985F9AB98333EBBF0E41 /* AFURLResponseSerialization.m in Sources */,
+				F06CC22B1721A2586B0D7FAB /* AFURLSessionManager.m in Sources */,
+				D957072178ACC09123AC6D7F /* Pods-Cisco eReader-AFNetworking-dummy.m in Sources */,
+				23FFCCB6DA570F7DBB642D80 /* UIActivityIndicatorView+AFNetworking.m in Sources */,
+				69D6385C2090560BCE76E045 /* UIAlertView+AFNetworking.m in Sources */,
+				4D80D4449A22803CB04469FD /* UIButton+AFNetworking.m in Sources */,
+				17C619F318ABD3F4BDAABC39 /* UIImageView+AFNetworking.m in Sources */,
+				DE62C77A2341A72093E0EDCC /* UIProgressView+AFNetworking.m in Sources */,
+				725859C73E657851A7930D9F /* UIRefreshControl+AFNetworking.m in Sources */,
+				4DB9AD1919B7997F4077A060 /* UIWebView+AFNetworking.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		45D9BAC7400732CABCFC2B40 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-Cisco eReader-AFNetworking";
+			target = 4CF0AF0CD888A2F7A86AF2A1 /* Pods-Cisco eReader-AFNetworking */;
+			targetProxy = 7503A495E607337CFA20350A /* PBXContainerItemProxy */;
+		};
+		6B819BE1474C3668AD56F311 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-Cisco eReader-SSZipArchive";
+			target = ED3E191B224F2848A15D3303 /* Pods-Cisco eReader-SSZipArchive */;
+			targetProxy = CB57E09168FAB4D3C792E3CB /* PBXContainerItemProxy */;
+		};
+		803EBF530DF33427CC3C551C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-Cisco eReader-CocoaSecurity";
+			target = 78F85CA90701409F7873FACE /* Pods-Cisco eReader-CocoaSecurity */;
+			targetProxy = D942EE098F66AC812621C4BF /* PBXContainerItemProxy */;
+		};
+		CD1356D60BAEBC26B2FD77ED /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-Cisco eReader-GDataXML-HTML";
+			target = CB4CE96D547AFD500C031A95 /* Pods-Cisco eReader-GDataXML-HTML */;
+			targetProxy = 892C67E65BC062E4EEBA4A68 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		03C81CAFCD7F855C657574DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 721C34CB4DB771D1E78EEE72 /* Pods-Cisco eReader-SSZipArchive-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-Cisco eReader-SSZipArchive/Pods-Cisco eReader-SSZipArchive-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		138E690CD4BA3A557F6C5E87 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9FEFAC38C1C75611ED243BB7 /* Pods-Cisco eReader-GDataXML-HTML-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-Cisco eReader-GDataXML-HTML/Pods-Cisco eReader-GDataXML-HTML-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		1B72C8B3056C3636701CE0CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6DE23E2183365C412937C1FC /* Pods-Cisco eReader.release.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		1CA6D9FDB869FFB5E6197ADB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BEEC9D6DA106F56D2ED0D262 /* Pods-Cisco eReader-AFNetworking-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-Cisco eReader-AFNetworking/Pods-Cisco eReader-AFNetworking-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		202167F91F9C354B80217B81 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 19609B55EA0AA2DE42D36907 /* Pods-Cisco eReader-CocoaSecurity-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-Cisco eReader-CocoaSecurity/Pods-Cisco eReader-CocoaSecurity-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		794854EABBD5B0BC54997089 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 19609B55EA0AA2DE42D36907 /* Pods-Cisco eReader-CocoaSecurity-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-Cisco eReader-CocoaSecurity/Pods-Cisco eReader-CocoaSecurity-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		85C2F9A9F8174C7E0298A8AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		97A400F9246A6472A40C5473 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A280CE3BA63BC9E800928B33 /* Pods-Cisco eReader.debug.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		A3932F38973818D5E612F401 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		AD620C6F288A8CF305C85A7C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9FEFAC38C1C75611ED243BB7 /* Pods-Cisco eReader-GDataXML-HTML-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-Cisco eReader-GDataXML-HTML/Pods-Cisco eReader-GDataXML-HTML-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		CA789DF1079E1A6D3B0486DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BEEC9D6DA106F56D2ED0D262 /* Pods-Cisco eReader-AFNetworking-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-Cisco eReader-AFNetworking/Pods-Cisco eReader-AFNetworking-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		CF3497722C9FA14BEFB8C097 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 721C34CB4DB771D1E78EEE72 /* Pods-Cisco eReader-SSZipArchive-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-Cisco eReader-SSZipArchive/Pods-Cisco eReader-SSZipArchive-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		28AE2A415E3141EFB3502A8D /* Build configuration list for PBXNativeTarget "Pods-Cisco eReader-GDataXML-HTML" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				138E690CD4BA3A557F6C5E87 /* Debug */,
+				AD620C6F288A8CF305C85A7C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3143613E3A64B23A45C799E6 /* Build configuration list for PBXNativeTarget "Pods-Cisco eReader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				97A400F9246A6472A40C5473 /* Debug */,
+				1B72C8B3056C3636701CE0CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6C0B27A13B9E2189D75D5AD1 /* Build configuration list for PBXNativeTarget "Pods-Cisco eReader-AFNetworking" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA789DF1079E1A6D3B0486DC /* Debug */,
+				1CA6D9FDB869FFB5E6197ADB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		73E95E7CF855AD5FE7A0928C /* Build configuration list for PBXNativeTarget "Pods-Cisco eReader-CocoaSecurity" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				202167F91F9C354B80217B81 /* Debug */,
+				794854EABBD5B0BC54997089 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9BD51E2AB00AB0863E383B11 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3932F38973818D5E612F401 /* Debug */,
+				85C2F9A9F8174C7E0298A8AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DDFB8B154888E6B21DFE6702 /* Build configuration list for PBXNativeTarget "Pods-Cisco eReader-SSZipArchive" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF3497722C9FA14BEFB8C097 /* Debug */,
+				03C81CAFCD7F855C657574DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 649EFF2B692037622DA84899 /* Project object */;
+}
